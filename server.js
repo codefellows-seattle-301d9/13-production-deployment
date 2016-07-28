@@ -6,7 +6,7 @@ var express = require('express'),
   // DONE: require in our request proxy module
 
 
-// TODO: now use our proxy within a function to request
+// DONE: now use our proxy within a function to request
 //        our github data on the server.
 var proxyGitHub = function(request, response){
   console.log('Routing GitHub request for', request.params[0]);
