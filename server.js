@@ -7,7 +7,6 @@ var app = express();
 // TODO: now use our proxy within a function to request
 //        our github data on the server.
 var proxyGitHub = function(request, response){
-  // console.log('Routing GitHub request for', request.params[0]);
   (
    requestProxy({
      url: 'https://api.github.com/' + request.params[0],
